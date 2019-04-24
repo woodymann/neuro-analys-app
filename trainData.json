@@ -1,0 +1,18 @@
+[
+    {
+        "input": { "per": 0},
+        "output": { "no": 1}
+    },
+    {
+        "input": { "per": 1},
+        "output": { "yes": 1}
+    },
+    {
+        "input": { "per": 0.5},
+        "output": { "yes": 0.5, "no": 0.5}
+    },
+    {
+        "input": { "per": 0.5},
+        "output": { "yes": 0.5, "no": 0.5}
+    }
+]
