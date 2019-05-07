@@ -28,6 +28,7 @@ switch (act){
     case 'mask':
         console.log(common + '%');
     case 'compare':
-        console.log(net.run(common/100));
+        const result = net.run(common/100);
+        console.log(result)
     default:  break;
 }

@@ -54,7 +54,7 @@ class Library{
     }
 
     getVector(fileData){
-        const array = this.data.map( word => {
+        const array = this.data ? this.data.map( word => {
             let flag = 0;
             fileData.forEach(element => {
                 if(word == element) {
@@ -62,10 +62,9 @@ class Library{
                 }   
             });
             return flag;
-        });
+        }) : [];
         return array;
     }
-
     __updateData(){
         this.data = Reader.loadJSON(this.library);
     }

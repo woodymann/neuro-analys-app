@@ -1,5 +1,6 @@
-const brain = require('brain.js')
-const trainData = require('../../trainData')
+const brain = require('brain.js');
+const trainData = require('../../trainData');
+const infoTrainData =  require('../../infoTrainData');
 
 class Brain{
     constructor(){
@@ -12,12 +13,14 @@ class Brain{
         };
 
         this.net = new brain.NeuralNetwork(config);
+        this.infoNet = new brain.NeuralNetwork(config);
 
         this.net.train(trainData);
+        this.infoNet.train(infoTrainData);
     }
 
     run(per){
-        return this.net.run({ per });
+        return { output: this.net.run({ per }), info: this.infoNet.run({ per })};
     }
 }
 

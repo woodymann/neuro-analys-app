@@ -1,47 +1,47 @@
 [
     {
         "input": { "per": 0},
-        "output": { "yes": 0, "no": 1}
+        "output": { "yes": 0, "dif": 1}
     },
     {
         "input": { "per": 0.1},
-        "output": { "yes": 0, "no": 1}
+        "output": { "yes": 0, "dif": 1}
     },
     {
         "input": { "per": 0.2},
-        "output": { "yes": 0, "no": 1}
+        "output": { "yes": 0, "dif": 1}
     },
     {
         "input": { "per": 0.3},
-        "output": { "yes": 0, "no": 1}
+        "output": { "yes": 0, "dif": 1}
     },
     {
         "input": { "per": 0.4},
-        "output": { "yes": 0, "no": 1}
+        "output": { "yes": 0, "dif": 1}
     }
     ,
     {
         "input": { "per": 0.5},
-        "output": { "yes": 0, "no": 1}
+        "output": { "yes": 0, "dif": 1}
     },
     {
         "input": { "per": 0.6},
-        "output": { "yes": 0.9, "no": 0.1}
+        "output": { "yes": 0.9, "dif": 0.1}
     },
     {
         "input": { "per": 0.7},
-        "output": { "yes": 1, "no": 0}
+        "output": { "yes": 1}
     },
     {
         "input": { "per": 0.8},
-        "output": { "yes": 0.2, "no": 0.8}
+        "output": { "yes": 0.2, "com": 0.8}
     },
     {
         "input": { "per": 0.9},
-        "output": { "yes": 0.1, "no": 0.9}
+        "output": { "yes": 0.1, "com": 0.9}
     },
     {
         "input": { "per": 1},
-        "output": { "yes": 0, "no": 1}
+        "output": { "yes": 0, "com": 1}
     }
 ]
