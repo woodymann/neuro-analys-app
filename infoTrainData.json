@@ -34,11 +34,11 @@
     },
     {
         "input": { "per": 0.8},
-        "output": { "yes": 0.2, "com": 0.8}
+        "output": { "yes": 0.9, "com": 0.1}
     },
     {
         "input": { "per": 0.9},
-        "output": { "yes": 0.1, "com": 0.9}
+        "output": { "yes": 0.8, "com": 0.2}
     },
     {
         "input": { "per": 1},
