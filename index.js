@@ -28,6 +28,6 @@ switch (act){
     case 'mask':
         console.log(common + '%');
     case 'compare':
-        console.log(net.getRes(common/100), common, net.run(common/100))
+        console.log(net.getRes(common/100), net.run(common/100))
     default:  break;
 }
